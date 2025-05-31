@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Portfolio de Sheila</title>
+	<title>Portfolio_Sheila_CHABI</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -17,6 +17,13 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+</script>
+
 
 <body>
 
@@ -37,10 +44,11 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
-							<li class="nav-item"><a class="nav-link" href="#about-me">A propos de moi</a></li>
-							<li class="nav-item"><a class="nav-link" href="#parcours">Mon parcours</a></li>
-							<li class="nav-item"><a class="nav-link" href="#compétences">Mes compétences</a></li>
-							<li class="nav-item"><a class="nav-link" href="#interet">Mes centres d'intérêts</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about-me">A propos</a></li>
+							<li class="nav-item"><a class="nav-link" href="#parcours">Parcours</a></li>
+							<li class="nav-item"><a class="nav-link" href="#compétences">Compétences</a></li>
+							<li class="nav-item"><a class="nav-link" href="#expériences">Expériences</a></li>
+							<li class="nav-item"><a class="nav-link" href="#interet">Centres d'intérêts</a></li>
 							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 						</ul>
 					</div>
@@ -58,11 +66,11 @@
 					<div class="col-lg-7">
 						<div class="banner_content">
 							<h3 class="text-uppercase">Hell0</h3>
-							<h1 class="text-uppercase">Je suis Sheila CHABI</h1>
+							<h1 class="text-uppercase">Sheila CHABI</h1>
 							<h5 class="text-uppercase">Technicienne Réseaux et Télécommunications</h5>
 							<div class="d-flex align-items-center">
 								<a class="primary_btn" href="#about-me"><span>En Savoir plus sur moi</span></a>
-								<a class="primary_btn tr-bg" href="img\portfolio\Copie de Sheila_CHABI_Alternance(CV).png" target="_blank"><span>Télécharger mon CV</span></a>
+								<a class="primary_btn tr-bg" href="img/portfolio/Sheila_CHABI_Stage(CV).pdf" target="_blank"><span>Télécharger mon CV</span></a>
 							</div>
 						</div>
 					</div>
@@ -93,14 +101,14 @@
 							présente <br>
 							</h2>
 						<p>
-							Je suis <b> Sheila CHABI,</b> actuellement <b>étudiante en deuxième année de BUT en Réseaux 
+							Je suis <b class="highlight"> Sheila CHABI,</b> actuellement <b class="highlight">étudiante en troisième année de BUT en Réseaux 
 							et Télécommunications à l'Université de Paris Sorbonne Nord (IUT de Villetaneuse).</b>	 
-							Je suis de nature dynamique, persévérante et polyvalente.Dans le cadre de mon actuelle formation, 
-							je recherche un <b> de 10 à 12 semaines</b> afin de me familiariser au monde professionnel,
-							 de monter en compétence et de valider mon année.
+							Je suis de nature dynamique, persévérante et polyvalente. Dans le cadre de la poursuite de mes études
+							en mastère Cybersécurité l’année prochaine, je suis à la recherche d’une <b class="highlight">alternance</b> afin de 
+							découvrir davantage le monde professionnel et renforcer mes compétences.
 						</p>
 						
-						<a class="primary_btn" href="img/portfolio/CV  Sheila CHABI.pdf" target="_blank"><span>Télécharger mon CV</span></a>
+						<a class="primary_btn" href="img/portfolio/Sheila_CHABI_Stage(CV).pdf" target="_blank"><span>Télécharger mon CV</span></a>
 					</div>
 				</div>
 			</div>
@@ -220,7 +228,7 @@
 					<div class="main_title">
 						<h2>Mes compétences</h2>
 						<p>
-							Durant mon parcours universitaires, j'ai eu loccasion de travailler sur certains projets qui m'ont permis 
+							Durant mon parcours universitaire, j'ai eu l'occasion de travailler sur certains projets qui m'ont permis 
 							 <br> de travailler sur diverses technologies 
 						</p>
 						
@@ -230,9 +238,9 @@
 			<div class="row feature_inner">
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
-						<img src="1.png" alt="">
+						<img src="img/services/s1.png" alt="">
 						<h4>Administrer les Réseaux et l'Internet</h4>
-						<p>Grâcee à des outils tels que GNS3, Cisco Packet Tracer pour simuler la mise en place d'un réseau totalement fonctionnel.
+						<p>Grâce à des outils tels que GNS3, Cisco Packet Tracer pour simuler la mise en place d'un réseau totalement fonctionnel.
 							<br><a href="img/architecture.png" target="_blank">Exemple d'une architecture réalisée</a> </p>
 					</div>
 				</div>
@@ -250,7 +258,7 @@
 						<img src="img/services/s3.png" alt="">
 						<h4>Créer des outils et des applications sécurisés</h4>
 						<p>J'ai eu à travailler sur un pojet (en groupe) dont le but était de mettre 
-							sur place une application tirelire. Vous pourrez accéder au code sur <a href="contact.html">Github</a>
+							sur place une application tirelire. Vous pourrez accéder au code sur <a href="contact.html" target="_blank">Github</a>
 						</p>
 					</div>
 				</div>
@@ -271,6 +279,69 @@
 	<!--================Start Portfolio Area =================-->
 	
 	<!--================End Portfolio Area =================-->
+
+
+	<!--================ Start Features Area =================-->
+	<section id="expériences" class="features_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>Mes expériences</h2>
+						<p>
+							Durant mon parcours universitaire, j'ai eu l'occasion de réaliser divers stages (académique et professionnel).
+						</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row feature_inner justify-content-center text-center">
+				<div class="col-lg-4 col-md-6">
+					<div class="feature_item">
+						<h4>Développeuse Informatique - IUT Villetaneuse</h4>
+						<p>
+							<ul>
+  								<strong>Développement d'une application de gestion de stages</strong>
+  								<li>Utilisation de React pour l'interface utilisateur</li>
+  								<li>Base de données MySQL pour la gestion des données</li>
+  								<li>TypeORM pour faciliter les interactions avec la base de données</li>
+							</ul>
+							<a href="https://github.com/Sheilaa00/Gestion-de-stages" target="_blank">Extrait du code sur Github</a> </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="feature_item">
+						<h4>Trophee Ex Machina 2025</h4>
+						<p>
+							<ul>
+  								<strong>Gestion de Crise Cyber</strong>
+  								<li>Mise en situation réelle</li>
+  								<li>Renforcement des compétences en coordination d'équipe et communication en situation d'urgence</li>
+  								<li>Approfondissement des connaissances en analyse d’incident, gestion des priorités et prise de décision rapide</li>
+							</ul>
+							<a href="https://www.linkedin.com/posts/troph%C3%A9e-ex-machina_%F0%9D%97%A7%F0%9D%97%BF%F0%9D%97%BC%F0%9D%97%BD%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%B2-%F0%9D%97%98%F0%9D%98%85-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B5%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%AE-activity-7274848221930094592-OESd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADb9G6gBzsl6K4jmvB6ibdGeumkWSYkITmI" target="_blank">Une communication à ce sujet</a>
+						</p>
+
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="feature_item">
+						<h4>Analyste Cybersécurité - ASIN Bénin</h4>
+						<p><ul>
+  							<strong>Au sein de l'équipe bjCSIRT :</strong>
+  							<li>Monitoring des actifs et plateformes étatiques</li>
+							<li>Tests de pentesting sur les plateformes</li>
+							<li>Rédaction d'article et de documents officiels</li>
+  							<li>Participation à des challenges de cybersécurité</li>
+						</ul>
+ 							<a href="img/portfolio/Rapport de stage_Sheila_CHABI.pdf" target="_blank">Rapport de stage en entreprise</a>
+						</p>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	</section>
 
 	
 	<!--================ Start interest Area =================-->
@@ -392,7 +463,7 @@
 					<div class="info_item">
 						<i class="lnr lnr-phone-handset"></i>
 						<h6><a href="#">07 53 38 80 76</a></h6>
-						<p>Disponible entre 8h et 20h</p>
+						<p>Disponible entre 9h et 18h</p>
 					</div>
 					<div class="info_item">
 						<i class="lnr lnr-envelope"></i>

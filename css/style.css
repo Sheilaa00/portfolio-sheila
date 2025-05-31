@@ -33,6 +33,12 @@ body {
   color: #777777;
   background: url(../img/body-bg.png) no-repeat center; }
 
+
+.highlight {
+  color: #854fee 100%;
+}
+
+
 h1,
 h2,
 h3,
